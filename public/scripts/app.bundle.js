@@ -120,13 +120,13 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
-/***/ "./src/Components/Headers/Headings.js":
-/*!********************************************!*\
-  !*** ./src/Components/Headers/Headings.js ***!
-  \********************************************/
+/***/ "./src/Components/Header/PageHeader.js":
+/*!*********************************************!*\
+  !*** ./src/Components/Header/PageHeader.js ***!
+  \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Heading1\": () => (/* binding */ Heading1)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\nvar Heading1 = function Heading1(_ref) {\n  var children = _ref.children;\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h1\", {\n    className: \"text-3xl font-semibold\",\n    children: children\n  });\n};\n\n//# sourceURL=webpack://site/./src/Components/Headers/Headings.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Heading1\": () => (/* binding */ Heading1)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\nvar Heading1 = function Heading1(_ref) {\n  var children = _ref.children;\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h1\", {\n    className: \"text-3xl font-semibold\",\n    children: children\n  });\n};\n\n//# sourceURL=webpack://site/./src/Components/Header/PageHeader.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _Components_Headers_Headings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Components/Headers/Headings */ \"./src/Components/Headers/Headings.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\nvar maStyle = \"text-2xl bg-slate-500 h-36\";\n\nvar App = function App() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(\"article\", {\n    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"h1\", {\n      children: \"My Resume\"\n    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"aside\", {\n      children: \"I SUCK AT WEB DEV\"\n    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"section\", {\n      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"p\", {\n        children: \"Lorem Ipsum\"\n      })\n    })]\n  });\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(App, {}), document.getElementById('root'));\n\n//# sourceURL=webpack://site/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _Components_Header_PageHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Components/Header/PageHeader */ \"./src/Components/Header/PageHeader.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\nvar maStyle = \"text-2xl bg-slate-500 h-36\";\n\nvar App = function App() {\n  return (\n    /*#__PURE__*/\n    // -- Components --\n    // Header\n    // Summary\n    // Skills\n    // Education\n    (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(\"article\", {\n      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Components_Header_PageHeader__WEBPACK_IMPORTED_MODULE_1__.Heading1, {\n        children: \" My Resume\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"h1\", {\n        children: \"My Resume\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"aside\", {\n        children: \"I SUCK AT WEB DEV\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"section\", {\n        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"p\", {\n          children: \"Lorem Ipsum\"\n        })\n      })]\n    })\n  );\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(App, {}), document.getElementById('root'));\n\n//# sourceURL=webpack://site/./src/index.js?");
 
 /***/ })
 
