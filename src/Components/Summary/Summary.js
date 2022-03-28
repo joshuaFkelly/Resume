@@ -1,4 +1,3 @@
-// import { SectionHeader } from "Headers/SectionHeader";
 export const Summary = () => {
     return (
 
