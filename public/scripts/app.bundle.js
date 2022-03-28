@@ -130,13 +130,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/Components/Summary/Summary.js":
+/*!*******************************************!*\
+  !*** ./src/Components/Summary/Summary.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Summary\": () => (/* binding */ Summary)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n// import { SectionHeader } from \"Headers/SectionHeader\";\nvar Summary = function Summary() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"section\", {\n    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h1\", {\n      className: \"text-2xl font-semibold\",\n      children: \"Summary\"\n    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"p\", {\n      children: \"Self-taught, full stack web developer specializing in MERN Stack technology. Certified by Georgia Tech in Full Stack Flex Web Development.\"\n    })]\n  });\n};\n\n//# sourceURL=webpack://site/./src/Components/Summary/Summary.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _Components_Headers_PageHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Components/Headers/PageHeader */ \"./src/Components/Headers/PageHeader.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\nvar maStyle = \"text-2xl bg-slate-500 h-36\";\n\nvar App = function App() {\n  return (\n    /*#__PURE__*/\n    // -- Components --\n    // Header\n    (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Components_Headers_PageHeader__WEBPACK_IMPORTED_MODULE_1__.Header, {}) // Summary\n    // Skills\n    // Education\n\n  );\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(App, {}), document.getElementById('root'));\n\n//# sourceURL=webpack://site/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _Components_Headers_PageHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Components/Headers/PageHeader */ \"./src/Components/Headers/PageHeader.js\");\n/* harmony import */ var _Components_Summary_Summary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/Summary/Summary */ \"./src/Components/Summary/Summary.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar maStyle = \"text-2xl bg-slate-500 h-36\";\n\nvar App = function App() {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(\"div\", {\n    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Components_Headers_PageHeader__WEBPACK_IMPORTED_MODULE_1__.Header, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Components_Summary_Summary__WEBPACK_IMPORTED_MODULE_2__.Summary, {})]\n  });\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(App, {}), document.getElementById('root'));\n\n//# sourceURL=webpack://site/./src/index.js?");
 
 /***/ })
 
