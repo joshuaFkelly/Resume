@@ -1,8 +1,8 @@
-export const Header = () => {
+export const Header = ({ title }) => {
     return (
         <header>
             {/* Full Name */}
-            <h1 className="text-3xl font-semibold">Joshua Kelly</h1>
+            <h1 className="text-3xl font-semibold">{title}</h1>
 
             {/* Address - Phone Number */}
             <p> 9 Lea Way Palmetto, Ga 30268 (icon) 312-479-8425</p>

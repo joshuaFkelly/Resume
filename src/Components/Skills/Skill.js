@@ -3,7 +3,7 @@ export const Skills = () => {
         <section>
             <h1 className="text-2xl font-semibold">Skills</h1>
             <div>
-                <h6>Languages</h6>
+                <h6 className="text-xl font-semibold">Languages</h6>
                 <ol>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -11,7 +11,7 @@ export const Skills = () => {
                 </ol>
             </div>
             <div>
-                <h6>Fameworks/Libraries</h6>
+                <h6 className="text-xl font-semibold">Fameworks/Libraries</h6>
                 <ol>
                     <li>ReactJS</li>
                     <li>Bootstrap</li>
@@ -23,7 +23,7 @@ export const Skills = () => {
                 </ol>
             </div>
             <div>
-                <h6>Database</h6>
+                <h6 className="text-xl font-semibold">Database</h6>
                 <ol>
                     <li>MongoDB</li>
                     <li>Mongoose</li>
@@ -35,7 +35,7 @@ export const Skills = () => {
                 </ol>
             </div>
             <div>
-                <h6>Tools</h6>
+                <h6 className="text-xl font-semibold">Tools</h6>
                 <ol>
                     <li>Postman</li>
                     <li>Dev Tools</li>

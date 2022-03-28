@@ -1,13 +1,16 @@
 import reactDom from "react-dom";
 import { Header } from "./Components/Headers/PageHeader";
 import { Summary } from "./Components/Summary/Summary";
-const maStyle = "text-2xl bg-slate-500 h-36";
+import { Skills } from "./Components/Skills/Skill";
+import { Education } from "./Components/Education/Education";
 
 const App = () => {
 	return (
 		<div>
-			<Header></Header>
+			<Header title="Joshua Kelly"></Header>
 			<Summary></Summary>
+			<Skills></Skills>
+			<Education></Education>
 		</div>
 	)
 };
