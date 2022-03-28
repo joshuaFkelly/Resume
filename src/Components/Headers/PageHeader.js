@@ -2,10 +2,8 @@ export const Header = ({ title }) => {
     return (
         <header>
 
-            <div className="text-center">
-                <h1 className="text-3xl font-semibold">{title}</h1>
-                <p>9 Lea Way Palmetto, Ga 30268 (icon) 312-479-8425</p>
-            </div>
+            <h1 className="text-3xl font-semibold text-center">{title}</h1>
+            <p className="mx-2">9 Lea Way Palmetto, GA 30268 (icon) 312-479-8425</p>
 
             <ul className=" flex flex-row justify-evenly">
 
@@ -18,7 +16,7 @@ export const Header = ({ title }) => {
                 </li>
 
                 <li>
-                    <a href="https://www.linkedin.com/in/joshua-kelly-482196185/" target={"_blank"}>LinkedInn</a>
+                    <a href="https://www.linkedin.com/in/joshua-kelly-482196185/" target={"_blank"}>LinkedIn</a>
                 </li>
 
                 <li>
