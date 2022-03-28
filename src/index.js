@@ -6,7 +6,7 @@ import { Education } from "./Components/Education/Education";
 
 const App = () => {
 	return (
-		<div>
+		<div className="container">
 			<Header title="Joshua Kelly"></Header>
 			<Summary></Summary>
 			<Skills></Skills>

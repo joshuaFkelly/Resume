@@ -1,24 +1,31 @@
 export const Header = ({ title }) => {
     return (
         <header>
-            {/* Full Name */}
-            <h1 className="text-3xl font-semibold">{title}</h1>
 
-            {/* Address - Phone Number */}
-            <p> 9 Lea Way Palmetto, Ga 30268 (icon) 312-479-8425</p>
+            <div className="text-center">
+                <h1 className="text-3xl font-semibold text-center">{title}</h1>
+                <p>9 Lea Way Palmetto, Ga 30268 (icon) 312-479-8425</p>
+            </div>
 
-            {/* Gmail Link */}
-            {/* Can i get this to add to clipboard on click? */}
-            <a href="#">jdkpersonal2015@gmail.com </a>
+            <ul className=" flex flex-row">
 
-            {/* Github Link */}
-            <a href="https://github.com/joshuaFkelly" target={"_blank"}>Github </a>
+                <li>
+                    <a href="#">jdkpersonal2015@gmail.com</a>
+                </li>
 
-            {/* LinkedIn Link */}
-            <a href="https://www.linkedin.com/in/joshua-kelly-482196185/" target={"_blank"}>LinkedInn </a>
+                <li>
+                    <a href="https://github.com/joshuaFkelly" target={"_blank"}>Github</a>
+                </li>
 
-            {/* Portfolio Link */}
-            <a href="#">My Portfolio</a>
+                <li>
+                    <a href="https://www.linkedin.com/in/joshua-kelly-482196185/" target={"_blank"}>LinkedInn</a>
+                </li>
+
+                <li>
+                    <a href="#">My Portfolio</a>
+                </li>
+
+            </ul>
         </header>
     )
 }
