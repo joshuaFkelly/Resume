@@ -610,6 +610,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: row;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .border {
   border-width: 1px;
 }
