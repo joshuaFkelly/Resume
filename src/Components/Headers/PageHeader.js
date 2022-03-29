@@ -1,13 +1,13 @@
-export const Header = ({ title }) => {
+export const Header = () => {
     return (
-        <header>
+        <header className="p-4">
             <div className="text-center">
-                <h1 className="text-4xl font-semibold text-center"><span className="text-neutral-500 font-light">Joshua</span> <span className="font-bold">Kelly</span></h1>
-                <p>9 Lea Way Palmetto, GA 30268</p>
-                <p><span className="icon"></span>312-479-8425</p>
+                <h1 className="text-5xl font-semibold text-center"><span className="text-neutral-500 font-light">Joshua</span> <span className="font-bold">Kelly</span></h1>
+                <p className="m-1">9 Lea Way Palmetto, GA 30268</p>
+                <p className="m-1"><span className="icon"></span>312-479-8425</p>
             </div>
 
-            <ul className="flex flex-row justify-evenly">
+            <ul className="flex flex-row justify-evenly m-1">
 
                 <li>
                     <a href="#">Email</a>

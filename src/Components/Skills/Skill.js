@@ -1,7 +1,7 @@
 export const Skills = () => {
     return (
-        <section className="flex flex-col justify-center p-1 ">
-            <h1 className="text-2xl font-semibold">Skills</h1>
+        <section className="flex flex-col justify-center p-2">
+            <h1 className="text-2xl font-semibold">SKILLS</h1>
             <div className="sm:flex flex-row justify-evenly">
                 <article className="mb-2 text-center">
                     <h6 className="text-xl font-semibold">Languages</h6>

@@ -1,7 +1,7 @@
 export const Education = () => {
     return (
-        <section className="p-1">
-            <h1 className="text-2xl font-semibold">Education</h1>
+        <section className="p-2">
+            <h1 className="text-2xl font-semibold">EDUCATION</h1>
 
             <article className="mb-2">
                 <p>May 2015</p>

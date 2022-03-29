@@ -7,7 +7,8 @@ import { Education } from "./Components/Education/Education";
 const App = () => {
 	return (
 		<div className="container mx-auto">
-			<Header title="Joshua Kelly"></Header>
+			<Header></Header>
+			<div className="border my-2"></div>
 			<Summary></Summary>
 			<Skills></Skills>
 			<Education></Education>
