@@ -1,9 +1,10 @@
 export const Skills = () => {
     return (
-        <section className="my-4">
-            <h1 className="text-2xl font-semibold">Skills</h1>
-            <div className="flex flex-col justify-center text-center">
-                <article className="m-2">
+        <section>
+            <div className="flex flex-col justify-center p-1">
+                <h1 className="text-2xl font-semibold">Skills</h1>
+
+                <article className="mb-2 text-center">
                     <h6 className="text-xl font-semibold">Languages</h6>
                     <ol>
                         <li>HTML5</li>
@@ -12,8 +13,8 @@ export const Skills = () => {
                     </ol>
                 </article>
 
-                <article className="m-2">
-                    <h6 className="text-xl font-semibold">Fameworks/Libraries</h6>
+                <article className="mb-2 text-center">
+                    <h6 className="text-xl  font-semibold">Fameworks/Libraries</h6>
                     <ol>
                         <li>ReactJS</li>
                         <li>Bootstrap</li>
@@ -25,7 +26,7 @@ export const Skills = () => {
                     </ol>
                 </article>
 
-                <article className="m-2">
+                <article className="mb-2 text-center">
                     <h6 className="text-xl font-semibold">Database</h6>
                     <ol>
                         <li>MongoDB</li>
@@ -38,7 +39,7 @@ export const Skills = () => {
                     </ol>
                 </article>
 
-                <article className="m-2">
+                <article className="mb-2 text-center">
                     <h6 className="text-xl font-semibold">Tools</h6>
                     <ol>
                         <li>Postman</li>
