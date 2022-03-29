@@ -3,7 +3,7 @@ import { Header } from "./Components/Headers/PageHeader";
 import { Summary } from "./Components/Summary/Summary";
 import { Skills } from "./Components/Skills/Skill";
 import { Education } from "./Components/Education/Education";
-
+import { Experience } from "./Components/Experience/Experience";
 const App = () => {
 	return (
 		<div className="container mx-auto">
@@ -12,6 +12,7 @@ const App = () => {
 			<Summary></Summary>
 			<Skills></Skills>
 			<Education></Education>
+			<Experience></Experience>
 		</div>
 	)
 };
