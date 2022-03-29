@@ -2,7 +2,7 @@ export const Header = ({ title }) => {
     return (
         <header>
             <div className="text-center">
-                <h1 className="text-4xl font-semibold text-center">{title}</h1>
+                <h1 className="text-4xl font-semibold text-center"><span className="text-neutral-500 font-light">Joshua</span> <span className="font-bold">Kelly</span></h1>
                 <p>9 Lea Way Palmetto, GA 30268</p>
                 <p><span className="icon"></span>312-479-8425</p>
             </div>
