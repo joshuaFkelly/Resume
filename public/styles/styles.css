@@ -890,6 +890,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 500;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
