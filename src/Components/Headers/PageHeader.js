@@ -4,7 +4,7 @@ export const Header = ({ title }) => {
             <div className="text-center">
                 <h1 className="text-4xl font-semibold text-center">{title}</h1>
                 <p>9 Lea Way Palmetto, GA 30268</p>
-                <p> <span className="icon"></span> 312-479-8425</p>
+                <p><span className="icon"></span>312-479-8425</p>
             </div>
 
             <ul className="flex flex-row justify-evenly">
