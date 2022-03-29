@@ -2,7 +2,7 @@ export const Skills = () => {
     return (
         <section className="flex flex-col justify-center p-2">
             <h1 className="text-2xl font-semibold">SKILLS</h1>
-            <div className="sm:flex flex-row justify-evenly">
+            <div className="sm:flex flex-row justify-between">
                 <article className="mb-2 text-center">
                     <h6 className="text-xl font-semibold">Languages</h6>
                     <ol>
@@ -38,7 +38,7 @@ export const Skills = () => {
                     </ol>
                 </article>
 
-                <article className="mb-2 text-center">
+                <article className="text-center">
                     <h6 className="text-xl font-semibold">Tools</h6>
                     <ol>
                         <li>Postman</li>
