@@ -7,7 +7,7 @@ const copy = () => navigator.clipboard.writeText("jdkpersonal2015@gmail.com");
 
 export const Header = () => {
     return (
-        <header className="p-4">
+        <header className="p-4 mt-5">
             <div className="text-center">
                 <h1 className="text-5xl font-bold text-center"><span className="text-gray-700 font-light">Joshua</span> <span className="font-extrabold">Kelly</span></h1>
                 <p className="mt-1 text-gray-700 text-sm">9 Lea Way Palmetto, GA 30268</p>
