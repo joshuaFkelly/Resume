@@ -771,6 +771,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 0.75rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1237,6 +1261,40 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 640px) {
+    .sm\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .sm\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .sm\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .sm\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .sm\:container {
+      max-width: 1536px;
+    }
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -1257,5 +1315,51 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-6 {
     width: 1.5rem;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .lg\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .lg\:max-w-xl {
+    max-width: 36rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:w-1\/2 {
+    width: 50%;
+  }
+
+  .\32xl\:justify-evenly {
+    justify-content: space-evenly;
   }
 }
