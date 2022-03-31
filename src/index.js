@@ -4,13 +4,16 @@ import { Summary } from "./Components/Summary/Summary";
 import { Skills } from "./Components/Skills/Skill";
 import { Education } from "./Components/Education/Education";
 import { Experience } from "./Components/Experience/Experience";
-import { Switch } from "./Components/Switch/Switch";
+// import toggled, { Switch } from "./Components/Switch/Switch";
+
+// const toggleClass = "bg-tb text-white"
+
 const App = () => {
 	return (
-		<div className="container xl:w-3/5 2xl:w-1/2 mx-auto">
-			<Switch></Switch>
+		<div className="scroll-smooth snap-y bg-gradient-to-r from-gray-200 via-slate-400 to-gray-200">
+			{/* <Switch></Switch> */}
 			<Header></Header>
-			<div className="border my-2"></div>
+			{/* <div className="border my-2"></div> */}
 			<Summary></Summary>
 			<Skills></Skills>
 			<Education></Education>
