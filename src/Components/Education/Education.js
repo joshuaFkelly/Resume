@@ -1,7 +1,7 @@
 export const Education = () => {
     return (
-        <section className="flex flex-col min-h-screen min-w-screen align-middle justify-center snap-center mx-auto lg:min-h-0 lg:min-w-0 lg:p-5">
-            <h1 className="text-3xl font-bold text-center">EDUCATION</h1>
+        <section className="p-5 flex flex-col min-h-screen min-w-screen align-middle justify-center snap-center mx-auto lg:min-h-0 lg:min-w-0">
+            <h1 className="text-3xl mb-6 font-bold text-center">EDUCATION</h1>
 
             <article className="my-3">
                 <p className="text-gray-700 font-bold text-sm">May 2015</p>

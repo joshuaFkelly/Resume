@@ -1,8 +1,8 @@
 export const Experience = () => {
     return (
-        <section className="flex flex-col min-h-screen min-w-screen align-middle justify-center mx-auto lg:min-h-0 lg:min-w-0 lg:p-5">
+        <section className="p-5 flex flex-col min-h-screen min-w-screen align-middle justify-center mx-auto lg:min-h-0 lg:min-w-0">
 
-            <h1 className="text-3xl font-bold text-center">EXPERIENCE</h1>
+            <h1 className="text-3xl mb-6 font-bold text-center">EXPERIENCE</h1>
 
             <article className="my-3">
                 <p className="text-gray-700 font-bold text-sm">08/2016 - 03/2020</p>

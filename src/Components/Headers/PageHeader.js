@@ -8,16 +8,16 @@ const copy = () => navigator.clipboard.writeText("jdkpersonal2015@gmail.com");
 
 export const Header = () => {
     return (
-        <header className="bg-blue-900 flex flex-col min-h-screen min-w-screen align-middle justify-center snap-center mx-auto lg:min-h-0 lg:min-w-0 lg:p-5">
+        <header className="bg-blue-900 p-5 flex flex-col min-h-screen min-w-screen align-middle justify-center snap-center mx-auto lg:min-h-0 lg:min-w-0">
 
             <div className="text-center">
-                <h1 className="text-6xl text-white font-extrabold">Joshua Kelly</h1>
-                <p className="mt-1 font-semibold text-2xl text-blue-400">Full Stack Web Developer</p>
-                <p className="mt-1 text-white text-sm">9 Lea Way Palmetto, GA 30268</p>
-                <p className="mt-1 text-white text-sm">312-479-8425</p>
+                <h1 className="text-6xl mb-4 text-white font-extrabold">Joshua Kelly</h1>
+                <p className="mt-2 font-semibold text-2xl text-blue-400">Full Stack Web Developer</p>
+                <p className="mt-2 text-white text-sm">9 Lea Way Palmetto, GA 30268</p>
+                <p className="mt-2 text-white text-sm">312-479-8425</p>
             </div>
 
-            <ul className="flex flex-row justify-evenly mt-1">
+            <ul className="flex flex-row justify-evenly mt-2">
 
                 <li>
                     <SiGmail size={40} data-tip="Copy to Clipboard" onClick={copy}></SiGmail>

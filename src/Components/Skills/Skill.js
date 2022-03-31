@@ -1,8 +1,8 @@
 export const Skills = () => {
     return (
-        <section className="flex flex-col justify-center align-center text-center mx-auto min-h-screen min-w-screen snap-center lg:min-h-0 lg:min-w-0 lg:p-5 ">
+        <section className="p-5 flex flex-col justify-center align-center text-center mx-auto min-h-screen min-w-screen snap-center lg:min-h-0 lg:min-w-0">
 
-            <h1 className="text-3xl font-bold">SKILLS</h1>
+            <h1 className="text-3xl mb-6 font-bold">SKILLS</h1>
             <div className="sm:flex flex-row flex-wrap justify-between">
                 <article className="my-3">
                     <h6 className="text-xl font-semibold text-blue-400 ">Languages</h6>
