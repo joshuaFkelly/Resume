@@ -8,11 +8,11 @@ const copy = () => navigator.clipboard.writeText("jdkpersonal2015@gmail.com");
 
 export const Header = () => {
     return (
-        <header className="flex flex-col min-h-screen min-w-screen align-middle justify-center snap-center mx-auto xl:w-3/5 2xl:w-1/2">
+        <header className="bg-blue-900 flex flex-col min-h-screen min-w-screen align-middle justify-center snap-center mx-auto lg:min-h-0 lg:min-w-0 lg:p-5">
 
             <div className="text-center">
-                <h1 className="text-6xl font-bold"><span className="text-white font-light">Joshua</span> <span className=" font-extrabold">Kelly</span></h1>
-                <p className="mt-1 font-semibold text-2xl text-blue-800">Full Stack Web Developer</p>
+                <h1 className="text-6xl text-white font-extrabold">Joshua Kelly</h1>
+                <p className="mt-1 font-semibold text-2xl text-blue-400">Full Stack Web Developer</p>
                 <p className="mt-1 text-white text-sm">9 Lea Way Palmetto, GA 30268</p>
                 <p className="mt-1 text-white text-sm">312-479-8425</p>
             </div>
@@ -47,7 +47,7 @@ export const Header = () => {
 
             </ul>
 
-            <BsArrowDownCircleFill className="animate-bounce mx-auto absolute inset-x-0 bottom-10" color="" size={25}></BsArrowDownCircleFill>
+            <BsArrowDownCircleFill className="animate-bounce mx-auto absolute inset-x-0 bottom-10 lg:hidden" color="" size={25}></BsArrowDownCircleFill>
         </header >
     )
 }

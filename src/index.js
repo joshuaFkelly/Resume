@@ -10,7 +10,7 @@ import { Experience } from "./Components/Experience/Experience";
 
 const App = () => {
 	return (
-		<div className="scroll-smooth snap-y bg-gradient-to-r from-gray-200 via-slate-400 to-gray-200">
+		<div className="scroll-smooth snap-y bg-white mx-auto lg:max-w-3xl lg:shadow-2xl lg:my-10">
 			{/* <Switch></Switch> */}
 			<Header></Header>
 			{/* <div className="border my-2"></div> */}
