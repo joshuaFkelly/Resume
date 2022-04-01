@@ -15,7 +15,9 @@ export const Skills = () => {
             <div className="sm:flex flex-row flex-wrap justify-between text-center">
 
                 <article className="my-3">
+
                     <ListTitle>Languages</ListTitle>
+
                     <ol>
                         {
                             languages.map((item, i) => {
@@ -24,11 +26,12 @@ export const Skills = () => {
                                 )
                             })
                         }
-
                     </ol>
+
                 </article>
 
                 <article className="my-3">
+
                     <ListTitle>Framework/Libraries</ListTitle>
 
                     <ol>
@@ -44,7 +47,9 @@ export const Skills = () => {
                 </article>
 
                 <article className="my-3">
+
                     <ListTitle>Database</ListTitle>
+
                     <ol>
                         {
                             database.map((item, i) => {
@@ -54,10 +59,13 @@ export const Skills = () => {
                             })
                         }
                     </ol>
+
                 </article>
 
                 <article className="my-3">
+
                     <ListTitle>Tools</ListTitle>
+
                     <ol>
                         {
                             tools.map((item, i) => {
@@ -67,7 +75,9 @@ export const Skills = () => {
                             })
                         }
                     </ol>
+
                 </article>
+
             </div>
 
         </Section>

@@ -20,7 +20,9 @@ const educationData = [
 export const Education = () => {
     return (
         <Section>
+
             <SectionTitle>EDUCATION</SectionTitle>
+
             {
                 educationData.map(accolade => {
                     return (
@@ -34,6 +36,7 @@ export const Education = () => {
                     )
                 })
             }
+
         </Section>
     )
 }
