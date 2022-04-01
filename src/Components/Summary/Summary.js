@@ -1,9 +1,14 @@
 import { Section, SectionTitle } from "../GlobalElements/Section"
+const toTop = () => {
+    console.log(window.scrollY)
+    console.log(window.screenY)
 
+}
 export const Summary = () => {
     return (
 
         <Section>
+            <button onClick={toTop}>Button</button>
 
             <SectionTitle>SUMMARY</SectionTitle>
 

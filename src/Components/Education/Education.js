@@ -1,10 +1,10 @@
 import { Section, SectionTitle } from "../GlobalElements/Section"
 import EducationData from "./EducationData"
 
+
 export const Education = () => {
     return (
         <Section>
-
             <SectionTitle>EDUCATION</SectionTitle>
 
             {
