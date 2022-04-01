@@ -4,6 +4,7 @@ import { SiGmail } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import ReactTooltip from 'react-tooltip';
 import { BsArrowDownCircleFill } from "react-icons/bs";
+
 const copy = () => navigator.clipboard.writeText("jdkpersonal2015@gmail.com");
 
 export const Header = () => {
@@ -47,7 +48,7 @@ export const Header = () => {
 
             </ul>
 
-            <BsArrowDownCircleFill className="animate-bounce mx-auto absolute inset-x-0 bottom-10 lg:hidden" color="" size={25}></BsArrowDownCircleFill>
+            <BsArrowDownCircleFill className="animate-bounce mx-auto absolute inset-x-0 bottom-10 lg:hidden" size={25}></BsArrowDownCircleFill>
         </header >
     )
 }

@@ -13,11 +13,10 @@ const App = () => {
 		<div className="scroll-smooth snap-y bg-white mx-auto lg:max-w-3xl lg:shadow-2xl lg:my-10">
 			{/* <Switch></Switch> */}
 			<Header></Header>
-			{/* <div className="border my-2"></div> */}
 			<Summary></Summary>
 			<Skills></Skills>
-			<Education></Education>
 			<Experience></Experience>
+			<Education></Education>
 		</div>
 	)
 };

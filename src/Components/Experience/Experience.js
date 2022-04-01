@@ -1,33 +1,57 @@
+import { Section, SectionTitle } from "../GlobalElements/Section";
+
+const experienceData = [
+    {
+        id: 1,
+        date: "October 2021 - Present",
+        jobTitle: "Low-Voltage Technician",
+        employer: "Netplanner Systems Inc.",
+        description: "Pull, hange, dress, and terminate cat5e, cat6, cat6a cable for network, security, or other low-voltage appliances in a commerical setting."
+    },
+    {
+        id: 2,
+        date: "January 2020 - October 2021",
+        jobTitle: "BJJ/Striking Coach",
+        employer: "Independent MMA & Fitness",
+        description: "Coach children from ages 4-18, and adults of all ages, how to train for a healthier lifestyle. Teach self-defense concepts. Attend events and coach students through their matches."
+
+    },
+    {
+        id: 3,
+        date: "June 2020 - December 2020",
+        jobTitle: "Low-Voltage Technician",
+        employer: "Simple Automation",
+        description: "Pull, hange, dress, and terminate cat5e, cat6, cat6a cable for network, security, or other low-voltage appliances in a residential setting."
+    },
+    {
+        id: 4,
+        date: "May/2016 - March/2020",
+        jobTitle: "Low-Voltage Technician",
+        employer: "Telecom Innovations",
+        description: "Pull, hange, dress, and terminate cat5e, cat6, cat6a cable for network, security, or other low-voltage appliances in a residential setting."
+
+    },
+]
+
 export const Experience = () => {
     return (
-        <section className="p-5 flex flex-col min-h-screen min-w-screen align-middle justify-center mx-auto lg:min-h-0 lg:min-w-0">
+        <Section>
+            <SectionTitle>EXPERIENCE </SectionTitle>
 
-            <h1 className="text-3xl mb-6 font-bold text-center">EXPERIENCE</h1>
+            {
+                experienceData.map(job => {
+                    return (
 
-            <article className="my-3">
-                <p className="text-gray-700 font-bold text-sm">08/2016 - 03/2020</p>
-                <h3 className="text-l font-semibold"> <span className="text-blue-400">Low-Voltage Technician,</span> <span className="">Telecom Innovations</span></h3>
-                <p>Pull, hange, dress, and terminate cat5e, cat6, cat6a cable for network, security, or other low-voltage appliances in a commerical setting.</p>
-            </article>
+                        <article key={job.id} className="my-3" >
+                            <p key={job.date} className="text-gray-700 font-bold text-sm">{job.date}</p>
+                            <h3 key={job.employer} className="text-l font-semibold"><span key={job.jobTitle} className="text-blue-400">{job.jobTitle},</span> {job.employer}</h3>
+                            <p key={job.description}>{job.description}</p>
+                        </article>
 
-            <article className="my-3">
-                <p className="text-gray-700 font-bold text-sm">1/2020 - 10/2021</p>
-                <h3 className="text-l font-semibold"> <span className="text-blue-400">BJJ/Striking Coach,</span> <span className="">Independent MMA and Fitness</span></h3>
-                <p>Coach children from ages 4-18, and adults, how to properly train and stay healthy. Teach self-defense principals to large groups of people. Attend events and coach students through their matches.</p>
-            </article>
+                    )
+                })
+            }
 
-            <article className="my-3">
-                <p className="text-gray-700 font-bold text-sm">06/2020 - 12/2020</p>
-                <h3 className="text-l font-semibold"> <span className="text-blue-400">Low-Voltage Technician,</span> <span className="">Simple Automation</span></h3>
-                <p>Pull, hange, dress, and terminate cat5e, cat6, cat6a cable for network, security, or other low-voltage appliances in a residential setting.</p>
-            </article>
-
-            <article className="my-3">
-                <p className="text-gray-700 font-bold text-sm">10/2021 - Present</p>
-                <h3 className="text-l font-semibold"> <span className="text-blue-400">Low-Voltage Technician,</span> <span className="">Netplanner Systems Inc.</span></h3>
-                <p>Pull, hange, dress, and terminate cat5e, cat6, cat6a cable for network, security, or other low-voltage appliances in a commerical setting.</p>
-            </article>
-
-        </section>
+        </Section >
     )
 }
