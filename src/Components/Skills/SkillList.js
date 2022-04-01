@@ -1,4 +1,3 @@
-
 import { ListItem, ListTitle } from "../GlobalElements/List"
 import SkillData from "./SkillData"
 

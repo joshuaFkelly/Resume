@@ -1,13 +1,3 @@
-import { ListItem } from "../GlobalElements/List"
-
-export const displaySkills = (list) => {
-    return (
-        list.map((item, i) => {
-            return (<ListItem key={i}>{item}</ListItem>)
-        })
-    )
-}
-
 export default [
 
     {
