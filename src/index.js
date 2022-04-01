@@ -1,7 +1,7 @@
 import reactDom from "react-dom";
 import { Header } from "./Components/Headers/PageHeader";
 import { Summary } from "./Components/Summary/Summary";
-import { Skills } from "./Components/Skills/Skill";
+import { Skills } from "./Components/Skills/Skills";
 import { Education } from "./Components/Education/Education";
 import { Experience } from "./Components/Experience/Experience";
 // import toggled, { Switch } from "./Components/Switch/Switch";

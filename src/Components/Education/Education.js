@@ -2,14 +2,12 @@ import { Section, SectionTitle } from "../GlobalElements/Section"
 
 const educationData = [
     {
-        id: 1,
         date: "November 2019",
         certificate: "Full Stack Flex Web Development",
         school: "Georgia Tech Institute of Technology",
         description: "Incredibly in-depth and fast paced bootcamp. Students were taught the latest technology behind creating websites from the ground up using both frontend and backend technologies."
     },
     {
-        id: 2,
         date: "May 2015",
         certificate: " High School Diploma",
         school: "North Gate High School",
@@ -24,13 +22,13 @@ export const Education = () => {
             <SectionTitle>EDUCATION</SectionTitle>
 
             {
-                educationData.map(accolade => {
+                educationData.map(({ date, certificate, school, description }, id) => {
                     return (
 
-                        <article key={accolade.id} className="my-3" >
-                            <p key={accolade.date} className="text-gray-700 font-bold text-sm">{accolade.date}</p>
-                            <h3 key={accolade.school} className="text-l font-semibold"><span key={accolade.certificate} className="text-blue-400">{accolade.certificate},</span> {accolade.school}</h3>
-                            <p key={accolade.description}>{accolade.description}</p>
+                        <article key={id} className="my-3" >
+                            <p key={date} className="text-gray-700 font-bold text-sm">{date}</p>
+                            <h3 key={school} className="text-l font-semibold"><span key={certificate} className="text-blue-400">{certificate},</span> {school}</h3>
+                            <p key={description}>{description}</p>
                         </article>
 
                     )
