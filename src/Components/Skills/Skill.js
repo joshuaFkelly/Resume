@@ -1,9 +1,11 @@
 import { ListItem, ListTitle } from "../GlobalElements/List"
 import { Section, SectionTitle } from "../GlobalElements/Section"
-const languages = ["html5", "CSS3", "JavaScript"]
+
+const languages = ["HTML5", "CSS3", "JavaScript"]
 const frameworksAndLibraries = ["ReactJs", "Bootstrap CSS", " Tailwind CSS", "NodeJs", "ExpressJs", "JQuery", "Handlebars.js"]
 const database = ["MongoDB", "Mongoose", "MongoDB Compass", "Robo3T", "MySQL", "Sequelize ORM", "AJAX/JSON"]
 const tools = ["Git", "Postman", "Chromse Dev Tools", "NPM", "RESTful API", "CRUD Development", "AdobeXD", "VS Code"]
+
 export const Skills = () => {
     return (
         <Section>
@@ -11,6 +13,7 @@ export const Skills = () => {
             <SectionTitle>SKILLS</SectionTitle>
 
             <div className="sm:flex flex-row flex-wrap justify-between text-center">
+
                 <article className="my-3">
                     <ListTitle>Languages</ListTitle>
                     <ol>
