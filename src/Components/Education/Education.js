@@ -5,6 +5,7 @@ import EducationData from "./EducationData"
 export const Education = () => {
     return (
         <Section>
+
             <SectionTitle>EDUCATION</SectionTitle>
 
             {
