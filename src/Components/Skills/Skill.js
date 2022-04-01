@@ -6,7 +6,7 @@ export const Skills = () => {
 
             <SectionTitle>SKILLS</SectionTitle>
 
-            <div className="sm:flex flex-row flex-wrap justify-between">
+            <div className="sm:flex flex-row flex-wrap justify-between text-center">
                 <article className="my-3">
                     <h6 className="text-xl font-semibold text-blue-400">Languages</h6>
                     <ol>
