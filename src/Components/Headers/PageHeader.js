@@ -13,12 +13,12 @@ export const Header = () => {
 
             <div className="text-center">
                 <h1 className="text-6xl mb-4 text-white font-extrabold">Joshua Kelly</h1>
-                <p className="mt-2 font-semibold text-2xl text-blue-400">Full Stack Web Developer</p>
-                <p className="mt-2 text-white text-sm">9 Lea Way Palmetto, GA 30268</p>
-                <p className="mt-2 text-white text-sm">312-479-8425</p>
+                <p className="my-4 font-semibold text-2xl text-blue-400">Full Stack Web Developer</p>
+                <p className="my-4 text-white text-sm">9 Lea Way Palmetto, GA 30268</p>
+                <p className="my-4 text-white text-sm">312-479-8425</p>
             </div>
 
-            <ul className="flex flex-row justify-evenly mt-2">
+            <ul className="flex flex-row justify-evenly mt-4">
 
                 <li>
                     <SiGmail size={40} data-tip="Copy to Clipboard" onClick={copy}></SiGmail>
