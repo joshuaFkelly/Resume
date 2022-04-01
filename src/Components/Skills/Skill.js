@@ -1,5 +1,9 @@
+import { ListItem, ListTitle } from "../GlobalElements/List"
 import { Section, SectionTitle } from "../GlobalElements/Section"
-
+const languages = ["html5", "CSS3", "JavaScript"]
+const frameworksAndLibraries = ["ReactJs", "Bootstrap CSS", " Tailwind CSS", "NodeJs", "ExpressJs", "JQuery", "Handlebars.js"]
+const database = ["MongoDB", "Mongoose", "MongoDB Compass", "Robo3T", "MySQL", "Sequelize ORM", "AJAX/JSON"]
+const tools = ["Git", "Postman", "Chromse Dev Tools", "NPM", "RESTful API", "CRUD Development", "AdobeXD", "VS Code"]
 export const Skills = () => {
     return (
         <Section>
@@ -8,51 +12,57 @@ export const Skills = () => {
 
             <div className="sm:flex flex-row flex-wrap justify-between text-center">
                 <article className="my-3">
-                    <h6 className="text-xl font-semibold text-blue-400">Languages</h6>
+                    <ListTitle>Languages</ListTitle>
                     <ol>
-                        <li className="py-1 font-medium">HTML5</li>
-                        <li className="py-1 font-medium">CSS3</li>
-                        <li className="py-1 font-medium">JavaScript</li>
+                        {
+                            languages.map((item, i) => {
+                                return (
+                                    <ListItem key={i}>{item}</ListItem>
+                                )
+                            })
+                        }
+
                     </ol>
                 </article>
 
                 <article className="my-3">
-                    <h6 className="text-xl  font-semibold text-blue-400">Fameworks/Libraries</h6>
+                    <ListTitle>Framework/Libraries</ListTitle>
+
                     <ol>
-                        <li className="py-1 font-medium">ReactJS</li>
-                        <li className="py-1 font-medium">Bootstrap</li>
-                        <li className="py-1 font-medium">Tailwind</li>
-                        <li className="py-1 font-medium">NodeJs</li>
-                        <li className="py-1 font-medium">ExpressJs</li>
-                        <li className="py-1 font-medium">JQuery</li>
-                        <li className="py-1 font-medium">Handlebars.js</li>
+                        {
+                            frameworksAndLibraries.map((item, i) => {
+                                return (
+                                    <ListItem key={i}>{item}</ListItem>
+                                )
+                            })
+                        }
+                    </ol>
+
+                </article>
+
+                <article className="my-3">
+                    <ListTitle>Database</ListTitle>
+                    <ol>
+                        {
+                            database.map((item, i) => {
+                                return (
+                                    <ListItem key={i}>{item}</ListItem>
+                                )
+                            })
+                        }
                     </ol>
                 </article>
 
                 <article className="my-3">
-                    <h6 className="text-xl font-semibold text-blue-400">Database</h6>
+                    <ListTitle>Tools</ListTitle>
                     <ol>
-                        <li className="py-1 font-medium">MongoDB</li>
-                        <li className="py-1 font-medium">Mongoose</li>
-                        <li className="py-1 font-medium">Robo3T</li>
-                        <li className="py-1 font-medium">Mondo DB Compass</li>
-                        <li className="py-1 font-medium">MySQL</li>
-                        <li className="py-1 font-medium">Sequelize ORM</li>
-                        <li className="py-1 font-medium">AJAX/JSON</li>
-                    </ol>
-                </article>
-
-                <article className="my-3">
-                    <h6 className="text-xl font-semibold text-blue-400">Tools</h6>
-                    <ol>
-                        <li className="py-1 font-medium">Postman</li>
-                        <li className="py-1 font-medium">Dev Tools</li>
-                        <li className="py-1 font-medium">NPM</li>
-                        <li className="py-1 font-medium">RESTful APIs</li>
-                        <li className="py-1 font-medium">CRUD Application</li>
-                        <li className="py-1 font-medium">Adobe XD</li>
-                        <li className="py-1 font-medium">Git</li>
-                        <li className="py-1 font-medium">VS Code</li>
+                        {
+                            tools.map((item, i) => {
+                                return (
+                                    <ListItem key={i}>{item}</ListItem>
+                                )
+                            })
+                        }
                     </ol>
                 </article>
             </div>
