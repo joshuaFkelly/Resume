@@ -6,12 +6,13 @@ import ReactTooltip from 'react-tooltip';
 
 const copy = () => navigator.clipboard.writeText("jdkpersonal2015@gmail.com");
 
-document.addEventListener("scroll", () => {
-    if (window.scrollY > 734) {
-        console.log("nav")
-        document.getElementById("navbar").className = "sticky top-0 right-0"
-    }
-})
+// document.addEventListener("scroll", () => {
+//     if (window.scrollY > 734) {
+//         console.log("nav")
+//         document.getElementById("navbar").className = "sticky top-0 right-0"
+//     }
+// })
+
 export const Navbar = () => {
     return (
         <ul id="navbar" className="flex flex-row justify-evenly sticky top-0">
